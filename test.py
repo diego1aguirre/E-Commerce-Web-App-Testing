@@ -6,6 +6,8 @@ from time import sleep
 driver = Firefox()
 driver.get('https://www.saucedemo.com/')
 
+
+
 def send_credentials(user,password_):
 
     driver.find_element(By.ID,"user-name").send_keys(user)
