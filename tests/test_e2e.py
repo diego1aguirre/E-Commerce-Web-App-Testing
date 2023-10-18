@@ -1,6 +1,7 @@
 import pytest
 from pages.base_page import BasePage
 from utilities.test_data import TestData
+from selenium import webdriver
 
 class TestE2E(BasePage):
 
@@ -8,7 +9,7 @@ class TestE2E(BasePage):
         super().__init__(self)
 
     def e2e(self,username_input,password_input,add_locator):
-        self.open_page(TestData.url)
+        self.open(TestData.url)
         self.set(TestData.username_input_field,username_input)
         self.set(TestData.password_input_field,password_input)
         self.click(TestData.submit_btn_field)
@@ -22,7 +23,11 @@ class TestE2E(BasePage):
         self.click(TestData.finish_btn)
         confirmation = self.get_text(TestData.confirmation_message)
         assert confirmation == 'Thank you for your order!'
+        self.close()
+
 
 def test1():
-    login = TestE2E()
-    login.e2e(TestData.username,TestData.password,TestData.product1_add_to_cart_field)
+    test_e2e_object = TestE2E()
+    test_e2e_object.e2e(TestData.username,TestData.password,TestData.product1_add_to_cart_field)
+
+
