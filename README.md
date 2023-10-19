@@ -17,6 +17,12 @@ This project contains a suite of automation tests designed to test the functiona
 - check the end-to-end flow for a customer who wants to buy a product
 - check certain static or functional details (buttons, titles, text)
 - check login functionality. add-to-cart functionality, check-out functionality, and registration functionality
-- check site functionality on multiple browsers 
+- check site functionality on multiple browsers
+
+# ✏️ Watch the demo video of the automation test process 💻
+
+https://github.com/cristiol/Selenium_Pytest_e-commerce/assets/142798921/7efc327b-3a9f-4896-b3c6-63d2b54d576c
+
+
 
 
