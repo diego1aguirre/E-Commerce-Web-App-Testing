@@ -21,8 +21,7 @@ This project contains a suite of automation tests designed to test the functiona
 
 # ✏️ Watch the demo video of the automation test process 💻
 
-https://github.com/cristiol/Selenium_Pytest_e-commerce/assets/142798921/7efc327b-3a9f-4896-b3c6-63d2b54d576c
-
+https://github.com/cristiol/Selenium_Pytest_e-commerce/assets/142798921/ce21525d-bcd5-41ea-9caf-063819a3f543
 
 
 
