@@ -1,4 +1,4 @@
-# Selenium pytest e-commerce s
+# Selenium pytest e-commerce 
 
 This project contains a suite of automation tests designed to test the functionality of the e-commerce site https://www.saucedemo.com/. I created this project in order to practice my testing skills and also to better understand the frameworks selenium and pytest.
 
